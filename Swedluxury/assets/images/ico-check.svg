@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="11.219" height="7.754" viewBox="0 0 11.219 7.754">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#74777d;stroke-linecap:round;stroke-width:1.4px}
+        </style>
+    </defs>
+    <g id="ico_check" transform="translate(-44.51 -10.51)">
+        <path id="Line_5" d="M0 0L3.465 3.465" class="cls-1" transform="translate(45.5 13.81)"/>
+        <path id="Line_6" d="M5.774 0L0 5.774" class="cls-1" transform="translate(48.965 11.5)"/>
+    </g>
+</svg>

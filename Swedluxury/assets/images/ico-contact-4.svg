@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="43" height="36">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:none}.cls-1{stroke:gray;stroke-miterlimit:2}
+        </style>
+    </defs>
+    <g id="ico_contact_4" transform="translate(-1050 -1197)">
+        <g id="ico_contact_3" transform="translate(1066.832 1207.947)">
+            <path id="Path_125" data-name="Path 125" class="cls-1" d="M19.689-28.19H6.829a4.6 4.6 0 0 1-4.593-4.593v-12.86a4.6 4.6 0 0 1 4.593-4.593h12.86a4.6 4.6 0 0 1 4.593 4.593v12.86a4.6 4.6 0 0 1-4.593 4.593z" transform="translate(-8.062 46.643)"/>
+            <path id="Path_126" data-name="Path 126" class="cls-1" d="M26.236-47.236v1.836" transform="translate(-21.039 45.02)"/>
+            <path id="Path_127" data-name="Path 127" class="cls-1" d="M26.236-9.236V-7.4" transform="translate(-21.039 24.474)"/>
+            <path id="Path_128" data-name="Path 128" class="cls-1" d="M45.073-26.236h-1.837" transform="translate(-30.231 33.666)"/>
+            <path id="Path_129" data-name="Path 129" class="cls-1" d="M7.073-26.236H5.236" transform="translate(-9.684 33.666)"/>
+            <path id="Path_130" data-name="Path 130" class="cls-1" d="M13.236-26.236h6.43" transform="translate(-14.01 33.666)"/>
+            <path id="Path_131" data-name="Path 131" class="cls-1" d="M26.236-29.562v-3.674" transform="translate(-21.039 37.451)"/>
+            <path id="bg" class="cls-2" transform="translate(-16.832 -9.947)" d="M0 0h43v35H0z"/>
+        </g>
+        <path id="Rectangle_1390" data-name="Rectangle 1390" class="cls-2" transform="translate(1054 1197)" d="M0 0h36v36H0z"/>
+    </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="144" height="142">
+    <defs>
+        <style>
+            .cls-3,.cls-5{fill:none;stroke:#222;stroke-miterlimit:2;stroke-width:1.2px}.cls-5{stroke-linejoin:round;stroke-linecap:round}
+        </style>
+    </defs>
+    <g id="ico_Monarc_3" transform="translate(-992 -334)">
+        <g id="Ellipse_236" data-name="Ellipse 236" transform="translate(992 334)" style="stroke:#ebebeb;fill:none">
+            <ellipse cx="72" cy="71" rx="72" ry="71" style="stroke:none"/>
+            <ellipse cx="72" cy="71" rx="71.5" ry="70.5" style="fill:none"/>
+        </g>
+        <circle id="Ellipse_204" data-name="Ellipse 204" cx="64" cy="64" r="64" transform="translate(1000 341)" style="fill:#f7f7f7"/>
+        <g id="Group_3806" data-name="Group 3806" transform="translate(1029.559 451.067)">
+            <path id="Path_4881" data-name="Path 4881" class="cls-3" d="M46.222-27a12.757 12.757 0 0 0-12.49-8.086A12.844 12.844 0 0 0 21.6-22.921a12.728 12.728 0 0 0 7.7 12.27 2.292 2.292 0 0 1 1.335 2.457 6.377 6.377 0 0 0 .086 2.206 6.219 6.219 0 0 0 4.914 4.765 6.232 6.232 0 0 0 6.775-3.446"/>
+            <path id="Path_4882" data-name="Path 4882" d="M27.875-20.849a5.991 5.991 0 0 1-.125-1.251 6.234 6.234 0 0 1 6.234-6.233 6.231 6.231 0 0 1 6.076 4.844s-3.242-.659-3.752 3.148" style="stroke-linejoin:round;stroke:#222;stroke-miterlimit:2;stroke-width:1.2px;fill:none"/>
+            <path id="Path_4883" data-name="Path 4883" class="cls-3" d="m40.059-16.115 5.04 5.04 10.433-10.433"/>
+            <path id="Path_4884" data-name="Path 4884" class="cls-5" d="M35.441-60.542c19.285 0 34.941 3.39 34.941 7.565s-15.657 7.565-34.941 7.565S.5-48.8.5-52.978s15.657-7.564 34.941-7.564z"/>
+            <path id="Path_4885" data-name="Path 4885" class="cls-5" d="M35.441-58.55c12.532 0 22.706 2.5 22.706 5.573s-10.174 5.572-22.706 5.572-22.706-2.5-22.706-5.572S22.91-58.55 35.441-58.55z"/>
+            <path id="Path_4886" data-name="Path 4886" class="cls-5" d="M.517-52.813v-46.252"/>
+            <path id="Path_4887" data-name="Path 4887" class="cls-5" d="M70.367-53.179v-44.975"/>
+        </g>
+    </g>
+</svg>

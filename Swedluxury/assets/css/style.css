@@ -1,0 +1,378 @@
+/* Global Css area Start */
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	color: #74777d;
+}
+ul{
+	list-style: none;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+.section-padding{
+	padding: 100px 0;
+}
+.margin-top{
+	margin-top: 100px;
+}
+.heading-2 {
+	margin: 4px 0px 81px 0px;
+	font-size: 40px;
+	line-height: 44px;
+	color: #222222;
+}
+/* Global Css area End */
+
+/* Header area start */
+.header-area{
+	  position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+/*     z-index: 1; */
+  background: white;
+}
+.header{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	padding: 36px 0;
+	box-sizing: border-box;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.logo img {
+  	height: 35px;
+}
+.btn{
+	display: none;
+}
+.menu ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.menu ul li{
+	margin: 0 12px;
+}
+.menu ul li:last-child{
+	margin-right: 0px;
+}
+.menu ul li a {
+	display: block;
+	font-size: 14px;
+	font-family: Lato;
+	line-height: 0px;
+	padding: 10px 0;
+	color: #222222;
+	font-weight: 600;
+	border-bottom: 2px solid transparent;
+}
+.menu ul li a:hover{
+	color: #ac9e72;
+	border-bottom: 2px solid #ac9e72;
+}
+.nav-icon{
+	color: #ac9e72;
+	font-size: 16px;
+	display: none;
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+}
+.nav-icon i:hover{
+	color: #ac9e72;
+}
+/* Header area end */
+
+/* Banner area start */
+.mobile-image{
+	display: none;
+}
+.banner-area {
+	background-image: url(../images/Header2.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 91px 0px 142px 0;
+}
+.Premium-line {
+	height: 15px;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 30px;
+	letter-spacing: 0.24px;
+	color: #ac9e72;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+}
+.Frihngande-kksflkt {
+	font-size: 24px;
+	line-height: 30px;
+	color: #fff;
+}
+.Monarc {
+	height: 82px;
+	margin: 10px 0px 0px 0;
+	font-size: 80px;
+	line-height: 60px;
+	color: #fff;
+}
+.banner-text p {
+	max-width: 354px;
+	font-size: 15px;
+	line-height: 22px;
+	color: #808080;
+	margin-bottom: 30px;
+	width: 100%;
+}
+.-kr-2 {
+	font-family: Lato;
+	font-size: 24px;
+	line-height: 24px;
+	color: #fff;
+	margin-bottom: 16px;
+}
+.Buy-now {
+	color: #fff;
+	padding: 10px 52px;
+	border-radius: 2px;
+	background-color: #ac9e72;
+	-webkit-transition: 0.5s ease all;
+	transition: 0.5s ease all;
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.Buy-now:hover{
+	background-color: tomato;
+	color: #fff;
+}
+/* Banner area end */
+
+/* Feature area start */
+.feature-area{
+	text-align: center;
+}
+.Features {
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 20px;
+	letter-spacing: 0.24px;
+	text-transform: uppercase;
+	color: #ac9e72;
+}
+.single-item img{
+	height: 142px;
+	padding: 7px 8px;
+}
+.single-item h4 {
+	height: 19px;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 16px;
+	color: #222222;
+	padding: 0 0;
+	margin: 35px 0 13px;
+}
+.single-item p {
+	max-width: 220px;
+	margin: auto;
+	line-height: 24px;
+	width: 100%;
+}
+/* Feature area end */
+
+/* Sterowanie gestami area start */
+.left-image img{
+	width: 100%;
+}
+.right-text {
+	max-width: 365px;
+	margin: auto;
+	width: 100%;
+}
+.right-text h3 {
+	margin: 0 121px 30px 0;
+	font-size: 28px;
+	font-weight: 500;
+	line-height: 34px;
+	color: #222222;
+}
+.right-text span {
+	margin-left: -30px;
+	padding-right: 10px;
+}
+.right-text ul li{
+
+}
+/* Sterowanie gestami area end */
+
+/* Oświetlenie area start */
+.video-popup{
+	background-image: url(../images/Wideo.jpg);
+	background-size: cover;
+	background-position: center;
+  	height: 570px;
+  	padding: 174px 0;
+  	
+}
+.video-text{
+	text-align: center;
+}
+.video-text i {
+	color: #fff;
+	width: 73px;
+	height: 73px;
+	margin: 0 150px 15px 151px;
+	padding: 25.5px 24.5px 25.5px 29.5px;
+	border: solid 4px #fff;
+	border-radius: 50%;
+	font-size: 16px;
+}
+.video-text h2 {
+	color: #fff;
+	margin: 0;
+}
+/* Oświetlenie area End */
+
+/* Technologie area start */
+/* Technologie area end */
+
+/* Video Popup area start */
+/* Video Popup area end */
+
+/* Specjalizujemy się area start */
+.sterowanic-text {
+	max-width: 365px;
+	width: 100%;
+}
+.edtit {
+	margin: 0;
+	max-width: 460px;
+	width: 100%;
+}
+.edtit h3 {
+	width: 460px;
+	font-size: 40px;
+	margin: 16px 0px 25px 0;
+	line-height: 44px;
+}
+.Om-Swedluxury {
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 20px;
+	color: #ac9e72;
+	text-transform: uppercase;
+}
+/* Specjalizujemy się area end */
+
+/* Contact area start */
+.contact-area{
+	background-color: #f1f1f1;
+}
+.feature-text{
+	text-align: center;
+}
+.contact-area h2{
+	margin: 4px 0px 20px 0px;
+}
+.contact-form p{
+	margin-bottom: 36px;
+}
+.contact-form {
+	max-width: 362px;
+	margin: auto;
+	text-align: center;
+	width: 100%;
+}
+input {
+	height: 44px;
+	margin: 5px 0px;
+	padding: 0 15px;
+	border: none;
+	line-height: 44px;
+	width: 100%;
+}
+input:focus {
+    outline: none;
+}
+
+.submit {
+	border-radius: 2px;
+	background-color: #ac9e72;
+	color: #fff;
+	-webkit-transition: .5s ease all;
+	transition: .5s ease all;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.submit:hover{
+	background: tomato;
+}
+/* Contact area end */
+
+/* Contact Information area start */
+.box {
+	height: 245px;
+	border: solid 1px #ccc;
+	border-bottom: 4px solid #ac9e72;
+	padding: 32px 30px 0;
+}
+.box a:hover{
+	color: #ac9e72;
+}
+.Headquarters {
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 20px;
+	letter-spacing: 0.24px;
+	color: #ac9e72;
+	display: block;
+	margin: 20px 7px 0;
+	text-transform: uppercase;
+}
+.Swedluxury {
+	margin: 15px 7px 0;
+	font-size: 18px;
+	line-height: 20px;
+	color: #222;
+	display: block;
+}
+.Swedluxury:hover{
+	color: #ac9e72g;
+}
+.Flygplansgatan {
+	margin: 15px 7px 0;
+	font-size: 13px;
+	line-height: 1.85;
+	color: #74777d;
+}
+.decoration{
+	text-decoration: underline;
+}
+
+/* Contact Information area end */
+
+/* Footer area start */
+.footer {
+  height: 80px;
+  padding: 0 0 62px;
+}
+.-\32 021-Ekman-Seger-Group-AB {
+  margin: 157px 127px 0 147px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: normal;
+  color: #74777d;
+}
+/* Footer area end */

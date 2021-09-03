@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:gray;stroke-miterlimit:2}
+        </style>
+    </defs>
+    <g id="ico_contact_3" transform="translate(-762 -1197)">
+        <g id="Group_3433" data-name="Group 3433" transform="translate(769 1207)">
+            <path id="Path_143" data-name="Path 143" class="cls-1" d="M2.236-17.427h21.72v-14.809H2.236z" transform="translate(-2.236 32.236)"/>
+            <path id="Path_144" data-name="Path 144" class="cls-1" d="M2.236-32.236 13.1-22.363l10.86-9.873" transform="translate(-2.236 32.236)"/>
+        </g>
+        <path id="Rectangle_1389" data-name="Rectangle 1389" transform="translate(762 1197)" style="fill:none" d="M0 0h36v36H0z"/>
+    </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:gray;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2}
+        </style>
+    </defs>
+    <g id="ico_contact_1" transform="translate(8 6)">
+        <path id="Rectangle_1387" data-name="Rectangle 1387" transform="translate(-8 -6)" style="fill:none" d="M0 0h36v36H0z"/>
+        <path id="Path_2735" data-name="Path 2735" class="cls-2" d="M711.59-368.473a9.524 9.524 0 0 0-9.527-9.527 9.527 9.527 0 0 0-9.527 9.527 9.485 9.485 0 0 0 2.751 6.691l6.776 7.772 6.78-7.772a9.5 9.5 0 0 0 2.747-6.691z" transform="translate(-692.536 378)"/>
+        <path id="Path_2736" data-name="Path 2736" class="cls-2" d="M713.922-363.3a5.633 5.633 0 0 1-5.633 5.633 5.636 5.636 0 0 1-5.633-5.633 5.636 5.636 0 0 1 5.633-5.633 5.633 5.633 0 0 1 5.633 5.633z" transform="translate(-698.762 372.42)"/>
+    </g>
+</svg>

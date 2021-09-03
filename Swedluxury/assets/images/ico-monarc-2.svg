@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="144" height="142">
+    <defs>
+        <style>
+            .cls-3{fill:none;stroke:#222;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.2px}
+        </style>
+    </defs>
+    <g id="ico_Monarc_2" transform="translate(-648 -334)">
+        <g id="Ellipse_235" data-name="Ellipse 235" transform="translate(648 334)" style="stroke:#ebebeb;fill:none">
+            <ellipse cx="72" cy="71" rx="72" ry="71" style="stroke:none"/>
+            <ellipse cx="72" cy="71" rx="71.5" ry="70.5" style="fill:none"/>
+        </g>
+        <circle id="Ellipse_204" data-name="Ellipse 204" cx="64" cy="64" r="64" transform="translate(656 341)" style="fill:#f7f7f7"/>
+        <g id="Group_3809" data-name="Group 3809" transform="translate(684.559 445.449)">
+            <path id="Path_4894" data-name="Path 4894" class="cls-3" d="M35.441-55.013c19.285 0 34.941 3.39 34.941 7.565s-15.657 7.565-34.941 7.565S.5-43.273.5-47.448s15.657-7.565 34.941-7.565z"/>
+            <path id="Path_4895" data-name="Path 4895" class="cls-3" d="M35.441-53.021c12.532 0 22.706 2.5 22.706 5.573s-10.174 5.573-22.706 5.573-22.706-2.5-22.706-5.573 10.175-5.573 22.706-5.573z"/>
+            <path id="Path_4896" data-name="Path 4896" class="cls-3" d="M.517-47.283v-46.252"/>
+            <path id="Path_4897" data-name="Path 4897" class="cls-3" d="M4.188-5.952v-25.2"/>
+            <path id="Path_4898" data-name="Path 4898" class="cls-3" d="M66.385-5.573v-25.2"/>
+            <path id="Path_4899" data-name="Path 4899" class="cls-3" d="M19.737-.981v-25.2"/>
+            <path id="Path_4900" data-name="Path 4900" class="cls-3" d="M50.836-.6v-25.2"/>
+            <path id="Path_4901" data-name="Path 4901" class="cls-3" d="M35.286-.5v-25.2"/>
+            <path id="Path_4902" data-name="Path 4902" class="cls-3" d="M70.367-47.65v-44.974"/>
+        </g>
+    </g>
+</svg>

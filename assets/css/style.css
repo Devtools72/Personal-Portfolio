@@ -1,0 +1,637 @@
+/***********************************************
+             Global CSS Area Start
+ ********************************************** */
+ @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+:root{
+    --yellow:#f9ca24;
+}
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    -webkit-transition:all .2s linear;
+    transition: all .2s linear;
+}
+*::-moz-selection{
+    background: var(--yello);
+    color: #333;
+}
+*::selection{
+    background: var(--yello);
+    color: #333;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+html::-webkit-scrollbar{
+    width:14px;
+    width:14px;
+    width: 1.4rem;
+}
+html::ebkit-scrollbar-track{
+    background: #222;
+}
+html::ebkit-scrollbar-thumb{
+    background: var(--yellow);
+}
+body{
+    background: #111;
+    overflow-x: hidden;
+    padding-left:350px;
+    padding-left:350px;
+    padding-left: 35rem;
+}
+section{
+    min-height: 100vh;
+    padding:10px;
+    padding:10px;
+    padding: 1rem;
+}
+.btn {
+    padding:7px 30px;
+    padding:7px 30px;
+    padding: .7rem 3rem;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+    margin-top:10px;
+    margin-top:10px;
+    margin-top: 1rem;
+    font-size:20px;
+    font-size:20px;
+    font-size: 2rem;
+    border-radius: 5rem;
+    max-width: 180px;
+    width: 100%;
+}
+.btn i{
+    padding:5px;
+    padding:5px;
+    padding: 0.5rem;
+    font-size:18px;
+    font-size:18px;
+    font-size: 1.8rem;
+}
+.btn:hover{
+    background: var(--yellow);
+    color: #000;
+}
+.heading{
+    text-align: center;
+    margin:0 60px;
+    margin:0 60px;
+    margin:0 6rem;
+    font-size:40px;
+    font-size:40px;
+    font-size: 4rem;
+    padding:10px;
+    padding:10px;
+    padding:1rem;
+    border-bottom:1px solid #fff4;
+    border-bottom:1px solid #fff4;
+    border-bottom: .1rem solid #fff4;
+    color:#fff;
+}
+.heading span{
+    color:var(--yellow);
+}
+/**********************************************
+            Global CSS Area End
+ ********************************************** */
+
+ /**********************************************
+            Header Area Start
+ ********************************************** */
+ header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100%;
+    width:350px;
+    width:350px;
+    width: 35rem;
+    background: #1a1a1a;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-flow: column;
+        flex-flow: column;
+    text-align: center;
+ }
+ header .user{
+    text-align: center;
+ }
+ header .user img{
+    height:170px;
+    height:170px;
+    height: 17rem;
+    width:170px;
+    width:170px;
+    width: 17rem;
+    border-radius: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin-bottom:10px;
+    margin-bottom:10px;
+    margin-bottom: 1rem;
+    border:7px solid var(--yellow);
+    border:7px solid var(--yellow);
+    border: .7rem solid var(--yellow);
+ }
+ header .user .name{
+    font-size:35px;
+    font-size:35px;
+    font-size: 3.5rem;
+    color: #fff;
+ }
+ header .user .post{
+    font-size:20px;
+    font-size:20px;
+    font-size: 2rem;
+    color: #eee;
+ }
+ header .navbar{
+    width: 100%;
+    text-align: center;
+ }
+ header .navbar ul{
+    list-style: none;
+    padding:10px 30px;
+    padding:10px 30px;
+    padding: 1rem 3rem;
+ }
+ header .navbar ul li a{
+    display: block;
+    padding:10px;
+    padding:10px;
+    padding: 1rem;
+    margin:15px 0;
+    margin:15px 0;
+    margin: 1.5rem 0;
+    background: #333;
+    color: #fff;
+    font-size:20px;
+    font-size:20px;
+    font-size: 2rem;
+    border-radius: 5rem;
+ }
+ header .navbar ul li a:hover{
+    background: var(--yellow);
+    color: #000;
+    -webkit-transition:all ease 0.5s;
+    transition: all ease 0.5s;
+ }
+ #menu{
+    position: fixed;
+    top:20px;
+    top:20px;
+    top: 2rem;
+    right:20px;
+    right:20px;
+    right: 2rem;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+    font-size:25px;
+    font-size:25px;
+    font-size: 2.5rem;
+    padding:10px 15px;
+    padding:10px 15px;
+    padding: 1rem 1.5rem;
+    z-index: 100;
+    display: none;
+ }
+ /**********************************************
+            Header Area End
+ ********************************************** */
+
+  /**********************************************
+            Home area Start
+ ********************************************** */
+ .home{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-flow: column;
+        flex-flow: column;
+    padding:0 150px;
+    padding:0 150px;
+    padding: 0 15rem;
+ }
+ .home h3{
+    font-size:25px;
+    font-size:25px;
+    font-size: 2.5rem;
+    color: #fff;
+ }
+ .home h1{
+    color: #fff;
+    font-size:50px;
+    font-size:50px;
+    font-size:5rem;
+ }
+ .home h1 span{
+    color: var(--yellow);
+ }
+ .home p{
+    font-size:20px;
+    font-size:20px;
+    font-size: 2rem;
+    color: #eee;
+    padding:10px 0;
+    padding:10px 0;
+    padding: 1rem 0;
+ }
+
+  /**********************************************
+            Home Area End
+ ********************************************** */
+
+   /**********************************************
+                  About area Start
+ ********************************************** */
+ .about .row{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding:10px 0;
+    padding:10px 0;
+    padding: 1rem 0;
+ }
+ .about .row .info{
+    -webkit-box-flex:1;
+        -ms-flex:1 1 480px;
+            flex:1 1 480px;
+    -ms-flex:1 1 480px;
+    -ms-flex: 1 1 48rem;
+        flex:1 1 480px;
+        flex: 1 1 48rem;
+    padding:20px 10px;
+    padding:20px 10px;
+    padding: 2rem 1rem;
+    padding-left:60px;
+    padding-left:60px;
+    padding-left: 6rem;
+ }
+ .about .row .info h3{
+    font-size:20px;
+    font-size:20px;
+    font-size: 2rem;
+    color: var(--yellow);
+    padding:10px 0;
+    padding:10px 0;
+    padding: 1rem 0;
+    font-weight: normal;
+ }
+ .about .row .info h3 span{
+    color: #eee;
+    padding:0 5px;
+    padding:0 5px;
+    padding: 0 .5rem;
+ }
+ .btn-top{
+   margin-top:20px;
+   margin-top:20px;
+   margin-top: 2rem;
+ }
+ .about .row .counter{
+    -webkit-box-flex:1;
+        -ms-flex:1 1 480px;
+            flex:1 1 480px;
+    -ms-flex:1 1 480px;
+    -ms-flex: 1 1 48rem;
+        flex:1 1 480px;
+        flex: 1 1 48rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+ }
+ .about .row .counter .box{
+    width:200px;
+    width:200px;
+    width: 20rem;
+    background: #222;
+    text-align: center;
+    padding:20px;
+    padding:20px;
+    padding: 2rem;
+    margin:20px;
+    margin:20px;
+    margin: 2rem;
+ }
+ .about .row .counter .box span{
+    font-size:40px;
+    font-size:40px;
+    font-size: 4rem;
+    color: var(--yellow);
+ }
+ .about .row .counter .box h3{
+    font-size:20px;
+    font-size:20px;
+    font-size: 2rem;
+    color: #fff;
+ }
+   /**********************************************
+                 About area End
+ ********************************************** */
+
+    /**********************************************
+                 Education Area start
+ ********************************************** */
+ .education .box-container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding:10px 0;
+    padding:10px 0;
+    padding: 1rem 0;
+    padding-left:30px;
+    padding-left:30px;
+    padding-left: 3rem;
+ }
+ .education .box-container .box{
+    width:270px;
+    width:270px;
+    width: 27rem;
+    margin:40px 10px;
+    margin:40px 10px;
+    margin: 4rem 1rem;
+    padding-left:40px;
+    padding-left:40px;
+    padding-left: 4rem;
+    border-left:2px solid #fff;
+    border-left:2px solid #fff;
+    border-left: .2rem solid #fff;
+    position: relative;
+ }
+ .education .box-container .box span{
+    font-size:13px;
+    font-size:13px;
+    font-size: 1.3rem;
+    background: #222;
+    color: #fff;
+    border-radius: 5rem;
+    padding:5px 25px;
+    padding:5px 25px;
+    padding: .5rem 2.5rem;
+ }
+ .education .box-container .box h3{
+    font-size:20px;
+    font-size:20px;
+    font-size: 2rem;
+    color: #fff;
+    padding-top:15px;
+    padding-top:15px;
+    padding-top: 1.5rem;
+ }
+ .education .box-container .box p{
+    font-size:14px;
+    font-size:14px;
+    font-size: 1.4rem;
+    color: #eee;
+    padding:10px 0;
+    padding:10px 0;
+    padding: 1rem 0;
+ }
+ .education .box-container .box i{
+    position: absolute;
+    top:-15px;
+    top:-15px;
+    top: -1.5rem;
+    left:-25px;
+    left:-25px;
+    left: -2.5rem;
+    height:50px;
+    height:50px;
+    height: 5rem;
+    width:50px;
+    width:50px;
+    width: 5rem;
+    border-radius: 50%;
+    line-height:50px;
+    line-height:50px;
+    line-height: 5rem;
+    text-align: center;
+    font-size:20px;
+    font-size:20px;
+    font-size: 2rem;
+    color: #fff;
+    background: var(--yellow);
+ }
+    /**********************************************
+                 Education area End
+ ********************************************** */
+
+     /**********************************************
+                 Portfolio Area Start
+ ********************************************** */
+ .portfolio .box-container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding:20px 0;
+    padding:20px 0;
+    padding: 2rem 0;
+ }
+.portfolio .box-container .box{
+    height:200px;
+    height:200px;
+    height: 20rem;
+    width:260px;
+    width:260px;
+    width: 26rem;
+    border-radius: 1rem;
+    margin:20px;
+    margin:20px;
+    margin: 2rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+.portfolio .box-container .box img{
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+.portfolio .box-container .box:hover img{
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+}
+     /**********************************************
+                 Portfolio area End
+ ********************************************** */
+
+      /**********************************************
+                Contact area start
+ ********************************************** */
+ .contact .row{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+ }
+ .contact .row .content{
+    -webkit-box-flex:1;
+        -ms-flex:1 1 300px;
+            flex:1 1 300px;
+    -ms-flex:1 1 300px;
+    -ms-flex: 1 1 30rem;
+        flex:1 1 300px;
+        flex: 1 1 30rem;
+    padding:40px;
+    padding:40px;
+    padding: 4rem;
+    padding-bottom:40px;
+    padding-bottom:40px;
+    padding-bottom: 4rem;
+ }
+ .contact .row form{
+    -webkit-box-flex:1;
+        -ms-flex:1 1 450px;
+            flex:1 1 450px;
+    -ms-flex:1 1 450px;
+    -ms-flex: 1 1 45rem;
+        flex:1 1 450px;
+        flex: 1 1 45rem;
+    padding:20px;
+    padding:20px;
+    padding: 2rem;
+    margin:20px;
+    margin:20px;
+    margin: 2rem;
+    margin-bottom:40px;
+    margin-bottom:40px;
+    margin-bottom: 4rem;
+ }
+ .contact .row form .box{
+    padding:15px;
+    padding:15px;
+    padding: 1.5rem;
+    margin:10px 0;
+    margin:10px 0;
+    margin: 1rem 0;
+    background: #333;
+    color: #fff;
+    text-transform: none;
+    font-size:17px;
+    font-size:17px;
+    font-size: 1.7rem;
+    width: 100%;
+ }
+ .contact .row form .box::-webkit-input-placeholder{
+    text-transform: capitalize;
+ }
+ .contact .row form .box::-moz-placeholder{
+    text-transform: capitalize;
+ }
+ .contact .row form .box:-ms-input-placeholder{
+    text-transform: capitalize;
+ }
+ .contact .row form .box::placeholder{
+    text-transform: capitalize;
+ }
+ .contact .row form .message{
+    height:150px;
+    height:150px;
+    height: 15rem;
+    resize: none;
+ }
+ .contact .row .content .title{
+    text-transform: uppercase;
+    color: #fff;
+    font-size:30px;
+    font-size:30px;
+    font-size: 3rem;
+    padding-bottom:20px;
+    padding-bottom:20px;
+    padding-bottom: 2rem;
+ }
+.contact .row .content .info h3{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size:20px;
+    font-size:20px;
+    font-size: 2rem;
+    color: #eee;
+    padding:10px 0;
+    padding:10px 0;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+.contact .row .content .info h3 i{
+    padding-right:10px;
+    padding-right:10px;
+    padding-right: 1rem;
+    color: var(--yellow);
+}
+.top{
+    position: fixed;
+    bottom:75px;
+    bottom:75px;
+    bottom: 7.5rem;
+    right:20px;
+    right:20px;
+    right: 2rem;
+    z-index: 100;
+    display: none;
+}
+      /**********************************************
+                 Contact area End
+ 
+ ********************************************** */

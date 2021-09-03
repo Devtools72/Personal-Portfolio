@@ -1,0 +1,249 @@
+@media screen and (max-width: 1199px){
+	.information-text {
+	height: 245px;
+}
+.Flygplansgatan {
+	font-size: 11px;
+}
+}
+
+@media screen and (max-width: 992px){
+	.header{
+		padding: 20px 0;
+	}
+	.logo img {
+	height: 25px;
+}
+	.edtit h3 {
+	width: 280px;
+	font-size: 29px;
+	line-height: 34px;
+}
+	
+	.heading-2 {
+	font-size: 25px;
+	line-height: 30px;
+}
+.right-text h3 {
+	margin: 0;
+}
+.right-text p {
+	margin-bottom: 26px;
+}
+.Premium-line {
+	margin: 28px 0 30px 0;
+}
+}
+
+/* Header area Start */
+@media all and (min-width: 768px){
+	.menu ul{
+		display: -webkit-box !important;
+		display: -ms-flexbox !important;
+		display: flex !important;
+	}
+	.btn{
+		display: none !important;
+	}
+}
+@media all and (max-width: 767px) {
+	/* Global Css Start */
+	.section-padding {
+		padding: 60px 0;
+	}
+	.right-text {
+		margin: unset;
+	}
+	.heading-2 {
+	margin: 13px 20px 54px;
+	font-size: 24px;
+	line-height: 34px;
+}
+	.feature-margin-top{
+		margin-top: 45px;
+	}
+	.padding-bottom{
+		padding-bottom: 35px;
+	}
+	.margin-top {
+		margin-top: 65px;
+	}
+	.show .fa-bars{
+		display: none;
+	}
+	.show .fa-times{
+		display: block !important;
+		font-size: 21px;
+	}
+	/* Global Css end */
+	.header{
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-align: inherit;
+		    -ms-flex-align: inherit;
+		            -ms-grid-row-align: inherit;
+		        align-items: inherit;
+	}
+	.menu ul{
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		margin-top: 25px;
+		display: none;
+	}
+	.menu ul li a {
+		display: inline-block;
+	}
+	.nav-icon{
+		display: block;
+	}
+	.logo img {
+		height: 23px;
+	}
+	.btn {
+		display: block;
+		width: 80px;
+		height: 34px;
+		border-radius: 2px;
+		background-color: #ac9e72;
+		font-size: 12px;
+		color: #fff;
+		-webkit-transition: .5s ease all;
+		transition: .5s ease all;
+		margin-left: 165px;
+	}
+	.btn:hover{
+		background-color: tomato;
+		color: #fff;
+	}
+	.logo{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+	}
+	/* Header area end */
+
+	/* Banner area start */
+	.mobile-image{
+		display: block;
+	}
+	.mobile-image img {
+	width: 100%;
+	height: 233px;
+}
+.banner-area {
+	height: 400px;
+	padding: 0px 0px 0px 0px;
+	background-image: none;
+	border: solid 1px #e8e8e8;
+}
+.Frihngande-kksflkt {
+	font-size: 16px;
+	color: #222;
+	}
+.Monarc {
+	height: 53px;
+	font-size: 50px;
+	color: #222;
+	margin: 0 0 4px;
+}
+.banner-text p {
+	width: 320px;
+}
+.-kr-2 {
+	font-size: 20px;
+	line-height: 20px;
+	color: #222;
+}
+	/* Banner area end */
+	
+/* Feature area Start */
+.single-item img {
+	height: 127px;
+}
+.video-popup {
+	height: 390px;
+	padding: 117px 0;
+}
+.video-text h2 {
+	margin-top: 20px;
+}
+.video-text i {
+	margin: auto;
+}
+ /* Sterowanie gestami area start */
+.right-text h3 {
+	margin: 30px 0 28px 0;
+	font-size: 26px;
+}
+/* Contact area */
+.contact-area h2 {
+	width: 320px;
+	margin: auto;
+	font-size: 20px;
+	line-height: 1.13;
+	padding-top: 13px;
+}
+.contact-form p {
+	margin: 20px 20px 30px;
+}
+.submit{
+font-size: 13px;
+}
+.information-text {
+	margin: auto;
+	margin-bottom: 20px;
+}
+.contact-form form {
+	padding: 0 15px;
+}
+.contact-informaton {
+	padding-bottom: 30px;
+	padding-top: 60px;
+}
+.box {
+	max-width: 264px;
+	width: 100%;
+	margin: auto;
+}
+.footer {
+	height: 80px;
+	padding: 0 0 62px;
+	text-align: center;
+	font-size: 12px;
+}
+.mb_row_reverse{
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: reverse;
+	    -ms-flex-direction: column-reverse;
+	        flex-direction: column-reverse;
+}
+.Headquarters {
+	display: block;
+}
+.right-text.edtit h3 {
+	margin: 16px 0 23px;
+}
+}
+@media all  and (max-width: 575px){
+	.btn {
+	    margin-left: 165px;
+	}
+}
+@media all  and (max-width: 480px){
+	.btn {
+		margin-left: 18px;
+	}
+.logo img {
+	height: 20px;
+}
+}
